@@ -52,7 +52,7 @@ export default function Index() {
                         >
                         {news.map((item, index) => (
                             <div className='w-full py-3' key={index}>
-                                <div className='card border border-white-500'>
+                                <div className='card border'>
                                     <div className='w-full flex flex-wrap'>
                                         <div className='w-full md:w-1/3 flex items-center justify-center rounded py-2 md:py-0'>
                                             <img src={item.image_url} alt="" className='w-full' />

@@ -4,11 +4,9 @@
 
 @layer components {
   .card {
-    background-color: theme('colors.black');
     border-radius: theme('borderRadius.lg');
     padding: theme('spacing.6');
     box-shadow: theme('boxShadow.xl');
-    color: theme('colors.white');
   }
 }
 
@@ -27,14 +25,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
