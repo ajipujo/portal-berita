@@ -36,11 +36,11 @@ export default function Index() {
             </Link>
             <span className="text-xl font-bold">Coretan Mahasiswa</span>
           </div>
-          <Link href="/articles/create">
+          {/* <Link href="/articles/create">
             <div className="border py-2 px-3 rounded hover:bg-white hover:text-black cursor-pointer text-sm">
               Tulis Artikel
             </div>
-          </Link>
+          </Link> */}
         </div>
         {isLoading ? (
           <div className="w-full py-5 flex justify-center">Loading...</div>
