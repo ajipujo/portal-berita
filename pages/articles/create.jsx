@@ -43,7 +43,8 @@ export default function Index() {
             <input
               type="text"
               id="author"
-              className="text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
+              placeholder="Author..."
+              className="text-sm rounded-lg block w-full p-2.5 bg-black border placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
               required
             />
           </div>
@@ -57,7 +58,8 @@ export default function Index() {
             <input
               type="text"
               id="title"
-              className="text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
+              placeholder="Title..."
+              className="text-sm rounded-lg block w-full p-2.5 bg-black border placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
               required
             />
           </div>
@@ -66,14 +68,14 @@ export default function Index() {
               editorState={editorState}
               toolbarClassName="toolbarClassName"
               wrapperClassName="wrapperClassName"
-              editorClassName="border rounded w-full bg-gray-700 border-gray-600 placeholder-gray-400 text-white px-2.5"
+              editorClassName="border rounded w-full bg-black border placeholder-gray-400 text-white px-2.5"
               onEditorStateChange={setEditorState}
             />
           </div>
           <div className="w-full mb-6">
             <button
               type="submit"
-              className="px-3 py-2 border rounded w-full hover:bg-white hover:text-black"
+              className="px-3 py-2 border rounded w-full bg-white text-black hover:bg-gray-200 hover:text-black"
             >
               Submit
             </button>
